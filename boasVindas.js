@@ -1,2 +1,2 @@
-let mensagemBoasVindas = 'Olá, seja bem vindo(a) a minha lista de tarefas...\nFeche este aviso para começar a desfrutar.\n(✿‿✿)NNetrun'
+let mensagemBoasVindas = 'Lista de pautas para reuniões...\nFeche este aviso para começar a usar.\n...NNetrun...'
 alert(mensagemBoasVindas)
