@@ -5,28 +5,39 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #964747; 
+    /* Cinza bem claro para o fundo */
+    background-color: #2b2b2b; 
 }
+
 .container {
     text-align: center;
-    background-color: #CBBBA7;
+    /* Fundo branco para o card principal */
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 90%;
+    /* Sombra leve para dar profundidade */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
     max-width: 600px;
-    border: 2px solid #8B7D70;
+    /* Borda em cinza claro */
+    border: 1px solid #ddd;
 }
+
 h1 {
-    color: #331F19;
+    /* Cinza quase preto para o título */
+    color: #222;
 }
+
 p {
-    color: #331F19;
+    /* Cinza escuro para textos secundários */
+    color: #555;
     font-size: 1.1em;
 }
+
 button {
-    background-color: #60041A;
-    color: #F4F0EA;
+    /* Botão em cinza escuro (quase preto) */
+    background-color: #333;
+    color: #ffffff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -35,21 +46,30 @@ button {
     transition: background-color 0.3s ease;
     margin-top: 10px;
 }
+
 button:hover {
-    background-color: #A34743;
+    /* Cinza um pouco mais claro no hover */
+    background-color: #555;
 }
+
 ul {
     list-style: none;
     padding: 0;
     margin-top: 20px;
 }
+
 ul li {
-    background-color: #F4F0EA;
-    color: #331F19;
-    padding: 10px;
-    margin: 5px 0;
+    /* Itens da lista em branco com borda cinza */
+    background-color: #fff;
+    color: #333;
+    padding: 12px;
+    margin: 8px 0;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #eee;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Estilo para o campo de entrada */
@@ -59,14 +79,14 @@ input[type="text"] {
     max-width: 500px;
     margin-top: 10px;
     margin-bottom: 10px;
-    border: 2px solid #8B7D70;
+    border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1em;
-    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
     outline: none;
     transition: border-color 0.3s ease;
 }
+
 input[type="text"]:focus {
-    border-color: #60041A;
-    box-shadow: inset 0 2px 4px rgba(96, 4, 26, 0.3);
+    /* Realce da borda ao clicar */
+    border-color: #333;
 }
