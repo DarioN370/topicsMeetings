@@ -1,5 +1,7 @@
 # 📝 Lista de Pautas para Reuniões
 
+![Print do Projeto](assets/imgs/Captura de tela 2026-01-02 190911.png)
+
 Um projeto minimalista e funcional para organização de pautas de reuniões, desenvolvido para facilitar o fluxo de trabalho e garantir que nenhum tópico seja esquecido.
 
 ## 🚀 Funcionalidades
